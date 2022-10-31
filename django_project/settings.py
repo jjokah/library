@@ -141,6 +141,10 @@ REST_FRAMEWORK = {
     ]
 }
 
-CORS_ALLOWED_ORIGINS = ("http://localhost:3000", "http://localhost:8000")
+CORS_ALLOWED_ORIGINS = (
+    "http://localhost:3000",
+    "http://localhost:8000",
+    "https://jjokah-library.herokuapp.com",
+)
 
 CSRF_TRUSTED_ORIGINS = ["localhost:3000"]
